@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow the 4 trading folders
+!1h-option sell/
+!RSI - Trading/
+!rsi-option/
+!jarvis-dashboard/
+!.gitignore
+
+# Within those folders, ignore runtime/build junk
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/node_modules/
+**/*.log
+**/*.log.bak
+**/bot.pid
+**/open_positions.json
+**/iv_history.json
+**/.env
