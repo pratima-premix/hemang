@@ -1,10 +1,8 @@
 # Ignore everything by default
 *
 
-# Allow the 4 trading folders
+# Allow trading folders
 !1h-option sell/
-!RSI - Trading/
-!rsi-option/
 !jarvis-dashboard/
 !.gitignore
 
